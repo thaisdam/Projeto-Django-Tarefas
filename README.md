@@ -1,6 +1,6 @@
 # Sistema Django - Projeto do Tutorial
 
-Este é um sistema web feito com Django, desenvolvido com base no seguinte tutorial do YouTube:
+Este é um sistema web feito com Django, desenvolvido com base no seguinte curso do YouTube:
 
 📺 (https://www.youtube.com/watch?v=MsUL3Pgofl4)
 
@@ -8,12 +8,23 @@ Este é um sistema web feito com Django, desenvolvido com base no seguinte tutor
 
 Este projeto foi construído acompanhando o vídeo acima. Ele cobre desde a criação de um ambiente Django até a construção de funcionalidades básicas de um sistema web.
 
+## ✨ Funcionalidades
+
+Este é um sistema de lista de tarefas (To-Do List) com as seguintes operações:
+
+* **Criação, Leitura, Atualização e Exclusão (CRUD)** de tarefas.
+* **Marcação de Tarefas como Concluídas**, registrando a data de finalização.
+* **Organização de tarefas** por prazo de entrega (`deadline`).
+
 ## 🚀 Tecnologias usadas
 
-- Python
-- Django
-- HTML / CSS (templates)
-- SQLite (banco de dados padrão do Django)
+* **Python**
+* **Django**
+* **HTML**
+* **CSS**
+* **Django Template Language (DTL)** e **Bootstrap 5** para a interface.
+* **Django Crispy Forms** para renderização otimizada de formulários.
+* **SQLite** (banco de dados padrão do Django)
 
 ## 📦 Como rodar o projeto
 
